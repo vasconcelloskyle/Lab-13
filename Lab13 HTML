@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> HTML 101 </title>
+</head>
+
+<body>
+
+<div id="container" style="width:500px">
+
+<div id="header" style="background-color:#FFA500;">
+<img src="http://www.cs.sonoma.edu/~haderman/cs355/assignments/cs355lab13.png" alt="CS355 Lab 13"> </div>
+
+<div id="menu" style="background-color:#FFD700;height:400px;width:100px;float:left;">
+<b>Menu</b><br>
+ <a href="https://github.com/vasconcelloskyle">CS355 Lab 13</a> <br>
+ <a href="http://www.cs.sonoma.edu/~haderman/cs355/">CS355</a> <br>
+ <a href="www.cs.sonoma.edu">SSU CS Dept</a> </div>
+
+<div id="content" style="background-color:#EEEEEE;height:400px;width:400px;float:left;">
+<table style="width:300px">
+<tr>
+  <th>Number</td>
+  <th>Name</td>
+  <th>Professor</td>
+</tr>
+<tr>
+  <td>CS355</td>
+  <td>Database Design</td>
+  <td>Haderman</td>
+</tr>
+<tr>
+  <td>CS470</td>
+  <td>Advanced Software Design</td>
+  <td>Kooshesh</td>
+</tr>
+<tr>
+  <td>CS390</td>
+  <td>CS Colloquium</td>
+  <td>Ledin</td>
+</tr>
+<tr>
+  <td>GEOL102</td>
+  <td>Intro Geology</td>
+  <td>Wood</td>
+</tr>
+<tr>
+  <td>SOCI201</td>
+  <td>Intro Sociology</td>
+  <td>Leeder</td>
+</tr>
+</table>
+<ol>
+<li>C++</li>
+<li>Database Design / SQL</li>
+<li>Physarum project in CS454</li>
+</ol>
+<ul>
+<li>Python</li>
+<li>Web Design</li>
+<li>Android Development</li>
+
+<button type="button" onclick="alert('Button was clicked!')">Click Me!
+</button>
+</div>
+
+<div id="footer" style="background-color:#FFA500;clear:both;text-align:center;">
+Copyright © W3Schools.com</div>
+
+</div>
+ 
+</body>
+</html>
